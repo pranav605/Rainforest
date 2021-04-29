@@ -1,0 +1,66 @@
+.navbar{
+    width: 99%;
+    height: 7%;
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.178);
+    position: fixed;
+    top:0px;
+
+}
+.navbar:hover{
+    top:0px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+.navbar-hidden{
+    background-color: pink;
+}
+
+.navbar-logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size:xx-large;
+    padding-left: 10px;
+    padding-top : 5px;  
+    float: left;
+    width: auto;
+    color: white;
+    text-decoration: inherit;
+    height: 5%;
+    min-height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.list{
+    float: right;
+    padding-right: 20px;
+}
+
+.listItem{
+    float: left;
+    width: auto;
+    color: white;
+    text-decoration: inherit;
+    padding: 10px;
+    height: 5%;
+    min-height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+
+/* 
+.listItem:active{
+    border: 1px outset gray;
+    box-shadow: 0px 0px 0px grey;
+    height: 5%;
+    min-height: 50px;
+    margin-top: 10px;
+    z-index: -2;
+    cursor: pointer;
+} */

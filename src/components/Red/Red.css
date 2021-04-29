@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10rem;
+    color: white;
+    margin-top: 30vh;
+}
+
+#red p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#red {
+    overflow: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,109 @@
+.blue {
+    height: '100%';
+    background-color: 'blue';
+    background-image: 'url("/plants.jpg")';
+    scroll-snap-align: 'start';
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.end-section {
+    height: 40%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    margin-top: 16vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.blue .cards-wrapper {
+    width: 80%;
+    display: flex;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto;
+}
+
+/* .blue .cards-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgb(44, 43, 43);
+    border-radius: 25px;
+    
+}
+
+.blue .cards-wrapper::-webkit-scrollbar-track{
+    background-color: rgba(46, 48, 48, 0);
+
+}
+
+.blue .cards-wrapper::-webkit-scrollbar{
+    height: 5px;
+} */
+
+.bq {
+    width: 100%;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.end-section h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+}
+
+
+
+.form-container {
+
+    margin-top: 10%;    
+    height: 100%;
+    width: 45%;
+    /* background-color: rebeccapurple; */
+    float: right;
+    
+}
+
+.form{
+    width: 90%;
+}
+
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    padding: 5px;
+}
+.end-section form  { display: table;      }
+.end-section    p     { display: table-row;  }
+.end-section    label { display: table-cell; }
+.end-section    input { display: table-cell; }
+
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 10px;
+}   
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 10%;
+} 
+
+.end-section h2 {
+    /* height: 100%; */
+    /* margin: 0 auto; */
+    width: 55% ;
+    float: inline-start;
+    /* background-color: chocolate; */
+    margin-top: 10%;
+}
